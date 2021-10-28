@@ -2,8 +2,8 @@
 @import "trabajos";
 @import "contacto";
 @import "404error";
-
-
+@import "social";
+@import "heart";
 
 body{
     background-color:#000;
@@ -21,6 +21,8 @@ body{
         z-index: -1;
     }
 
+
+    
 //fondo y barra // 
 
 .contenedor {
@@ -101,20 +103,4 @@ section {
     font-size: 4rem;
   }
   
-  /* Section Images */
-  section#home {
-    background: url('..//img/contacto2.png') no-repeat center center/cover;;
-  }
-  
-  section#about {
-    background: url('https://ibb.co/9t6TvwW') no-repeat center center/cover;;
-  }
-  
-  section#service {
-    background: url('https://source.unsplash.com/K2tdx2mFDHc/1600x900') no-repeat center center/cover;;
-  }
-  
-  section#contact {
-    background: url('https://source.unsplash.com/2aAHlfDOhJM/1600x900') no-repeat center center/cover;;
-  }
-  
+   /* Social media*/
