@@ -624,6 +624,7 @@ input[type="range"]::-webkit-slider-thumb {
 .right .show_song_no p:nth-child(2) {
   margin: 0 5px; }
 
+/* Boton */
 .github-btn {
   position: absolute;
   right: 40px;

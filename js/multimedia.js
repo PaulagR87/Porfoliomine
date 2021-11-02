@@ -59,10 +59,7 @@ let All_song = [
 ];
 
 
-// All functions
 
-
-// function load the track
 function load_track(index_no){
 	clearInterval(timer);
 	reset_slider();
