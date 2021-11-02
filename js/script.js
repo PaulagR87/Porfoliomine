@@ -28,32 +28,32 @@ let track = document.createElement('audio');
 let All_song = [
    {
      name: "first song",
-     path: "music/1.mp3",
+     path: "music/song1.mp3",
      img: "img/img1.jpg",
      singer: "1"
    },
    {
      name: "second song",
-     path: "2.mp3",
-     img: "img2.jpg",
+     path: "music/song2.mp3",
+     img: "img/img2.jpg",
      singer: "2"
    },
    {
      name: "third song",
-     path: "3.mp3",
-     img: "img3.jpg",
+     path: "music/song3.mp3",
+     img: "img/img3.jpg",
      singer: "3"
    },
    {
      name: "fourth song",
-     path: "4.mp3",
-     img: "img4.jpg",
+     path: "music/song4.mp3",
+     img: "img/img4.jpg",
      singer: "4"
    },
    {
      name: "fifth song",
-     path: "5.mp3",
-     img: "img5.jpg",
+     path: "music/song5.mp3",
+     img: "img/img5.jpg",
      singer: "5"
    }
 ];
@@ -169,7 +169,7 @@ function autoplay_switch(){
        auto_play.style.background = "rgba(255,255,255,0.2)";
 	}else{
        autoplay = 1;
-       auto_play.style.background = "#148F77";
+       auto_play.style.background = "#FF8A65";
 	}
 }
 
