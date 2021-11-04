@@ -107,7 +107,20 @@ section {
     font-size: 4rem;
   }
   
-  @media only screen 
-  and (device-width : 375px) 
-  and (device-height : 812px) 
-  and (-webkit-device-pixel-ratio : 3) { }
+  @media only screen and (max-width:768px){
+
+    body{
+      position: relative;
+      bottom: auto;
+      right: auto;
+      margin-top: 20px;
+    }
+    .header{
+        position: relative;
+    }
+
+    }
+    .contenedor{
+        position: relative;
+    }
+  
