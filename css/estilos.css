@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Shadows+Into+Light");
-@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Patrick+Hand&display=swap");
 .barra-navegacion ul {
   display: flex;
   justify-content: space-between;
@@ -668,7 +668,7 @@ input[type="range"]::-webkit-slider-thumb {
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   color: black;
-  text-shadow: white; }
+  font-family: 'Patrick Hand',cursive; }
 
 .item-1 {
   animation-name: anim-1; }
